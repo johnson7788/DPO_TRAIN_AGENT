@@ -33,6 +33,28 @@
 
 ## 准备工作
 
+### Git LFS 配置
+
+本项目使用 Git LFS 管理大文件数据，需要先安装并配置 LFS：
+
+```bash
+# 1. 安装 Git LFS
+brew install git-lfs  # macOS
+# 或 sudo apt-get install git-lfs  # Ubuntu/Debian
+
+# 2. 初始化 LFS
+git lfs install
+
+# 3. 克隆仓库后，拉取 LFS 文件
+git lfs pull
+```
+
+**LFS 管理的文件**：
+| 文件 | 说明 | 大小 |
+|------|------|------|
+| `DPO/data/dpo_dataset.jsonl` | DPO 训练数据集 | ~16MB |
+| `DPO/data/medical_data.db` | 医疗数据库 | ~356MB |
+
 ### 环境配置
 
 ```bash
