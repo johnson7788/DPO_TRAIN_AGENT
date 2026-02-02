@@ -340,3 +340,8 @@ python a2a_client.py
 | `train_logits_rejected.png` | rejected token 分布 |
 | `train_logps_chosen.png` | chosen log概率 |
 | `train_logps_rejected.png` | rejected log概率 |
+
+## 📬 联系方式
+
+如有问题，请联系作者：
+![weichat.png](doc/weichat.png)
