@@ -1,0 +1,17 @@
+# 不同模型的key
+ALI_API_KEY=sk-xxxx
+SILICON_API_KEY=sk-xxxx
+# 使用LLM的流式的响应，测试gemini的效果很好，true表示开启流的请求和响应
+STREAMING=true
+
+# vllm模型，当使用vllm模型时，指定自己的vllm的base url
+VLLM_API_URL=http://117.50.220.242:8400/v1
+VLLM_API_KEY=EMPTY
+
+# 默认使用的模型
+MODEL_PROVIDER=ali
+LLM_MODEL=deepseek-v3.2
+
+# 是否使用代理，clash的代理7890
+# HTTP_PROXY=http://127.0.0.1:7890
+# HTTPS_PROXY=http://127.0.0.1:7890

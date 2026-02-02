@@ -1,0 +1,5 @@
+{
+  "name": "RLHF Data Visualizer",
+  "description": "A specialized dashboard for inspecting medical RLHF datasets, featuring SQL tool call visualization, conversation replay, and metadata inspection.",
+  "requestFramePermissions": []
+}
